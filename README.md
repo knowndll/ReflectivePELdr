@@ -1,4 +1,4 @@
-# ReflectiveLoader
+# Reflective PE Loader
 This project is a PE loader utilizing reflective DLL injection, XOR encryption, and Base64 encoding to obfuscate payloads. The loader fetches the encrypted payload from a web server, decodes it, and executes it. It leverages NTAPI functions for low-level Windows operations and avoids static signatures to stay undetected.
 
 ## How to Use?
